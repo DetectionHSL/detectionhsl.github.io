@@ -1,0 +1,22 @@
+{
+  "name": "detectionhsl.github.io",
+  "version": "1.0.0",
+  "description": "Le site web de DetectionHSL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DetectionHSL/detectionhsl.github.io.git"
+  },
+  "author": "The DetectionHSL contributeurs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DetectionHSL/detectionhsl.github.io/issues"
+  },
+  "homepage": "https://github.com/DetectionHSL/detectionhsl.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
