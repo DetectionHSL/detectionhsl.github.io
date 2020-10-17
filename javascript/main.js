@@ -4,6 +4,7 @@ let resp = await fetch('https://api.github.com/repos/DetectionHSL/DetectionHSL/r
 });
 if(resp.ok){
     resp = await resp.json();
+    document.getElementById('rldla').setAttribute('href', `https://github.com/DetectionHSL/DetectionHSL/archive/${resp.tag_name}.zip`)
 
 }
 })();
