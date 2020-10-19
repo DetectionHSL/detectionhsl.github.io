@@ -1,2 +1,2 @@
 #!/usr/bin/env zsh
-npx tailwindcss build styles/style.css -o styles/main.css
+sass --watch sass/main.scss:styles/style.css -C --style compressed
