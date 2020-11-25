@@ -1,13 +1,19 @@
 <template>
-        <ul class="navbar">
+    <ul class="navbar">
         <li><a href="index.html">Home</a></li>
         <li><a href="https://github.com/DetectionHSL" target="_blank">GitHub</a></li>
+        <li @click="update"><p>Switch lang</p></li>
     </ul>
 </template>
 
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    methods: {
+        update(){
+            this.$emit('update')
+        }
+    }
 }
 </script>
 
@@ -19,15 +25,11 @@ export default {
     list-style-type: none;
     margin: 0;
     padding: 0;
-   
-   
-     
-    
 }
-a:hover {
+a, li:hover {
     color: lightgreen;
 }       
-a {
+a, li{
     float: left;
     color: #f2f2f2;
     text-align: center;
