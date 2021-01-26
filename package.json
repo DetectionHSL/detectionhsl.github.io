@@ -7,11 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vue/cli-service": "~4.5.11",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/cli-service": "~4.5.11"
   },
   "browserslist": [
     "> 1%",
